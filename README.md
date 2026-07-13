@@ -55,6 +55,6 @@ The `items.ndjson` file is compiled to structure the metadata and resource docum
 
 ## Rendered HTML Page Mockup with Slideshow
 
-When multiple images are associated with a museum record, an interactive slideshow with navigation thumbnail dots is rendered at the top of the Tachyons-styled HTML page. Hovering over table metadata fields displays tooltips with the respective schema description.
+When multiple images are associated with a museum record, an interactive slideshow with navigation thumbnail images is rendered at the top of the Tachyons-styled HTML page. Hovering over table metadata fields displays tooltips with the respective schema description.
 
 ![Interactive HTML Slideshow Mockup](images/slideshow_screenshot.png)
