@@ -1,0 +1,15 @@
+hier_object_id
+idno_sort
+idno_sort_num
+hier_left
+hier_right
+rank
+acl_inherit_from_parent
+acl_inherit_from_ca_collections
+access_inherit_from_parent
+view_count
+deleted
+prefer_display_front
+prefer_display_front_hierarchy
+txch_log
+extent

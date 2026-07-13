@@ -1,0 +1,27 @@
+# CollectiveAccess API Credentials
+username = "agent"
+password = "[password]"
+
+# The base URL of the CollectiveAccess GraphQL API service server
+api_server = "https://museum.uwinnipeg.ca/ca/service"
+
+# The base URI prefix namespace used for generating entity @id resource URIs
+base_uri = "https://museum.uwinnipeg.ca"
+
+# The default target database table name
+table_name = "ca_objects"
+
+# The default search query keyword term used for record retrieval
+search_term = "felt"
+
+# The HTML header template content injected at the top of generated pages
+html_header = """<header class="pv3 bb b--black-10 mb4"><h1 class="f3 f2-m f1-l fw2 black-90 mv0 lh-title">Museum</h1><h2 class="f5 fw4 gray mt1">Artifact Record Sheet</h2></header>"""
+
+# The HTML footer template content injected at the bottom of generated pages
+html_footer = """<footer class="pv4 mt5 bt b--black-10"><p class="f6 gray mv0">© 2026 Museum. All rights reserved.</p></footer>"""
+
+# The directory where the generated HTML pages and JSON-LD metadata files are saved
+html_output_dir = "items"
+
+# The Google Cloud Storage (GCS) bucket name used for ingestion file URIs
+gcs_bucket = "museum-search-bucket"
