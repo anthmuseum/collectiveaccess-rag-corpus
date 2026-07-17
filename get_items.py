@@ -98,7 +98,10 @@ def main():
         except Exception as e:
             print(f"Warning: Could not read schema file {schema_file}: {e}")
             
-    # Combine lists
+    # Combine lists. We want to include original, large, and icon representations of the object,
+    # but these are not included in the schema retrieved from the API as they belong to a 
+    # different table.
+    # TODO: retrieve all interstitial data
     bundles =  ["ca_object_representations.media.original.url", 
                 "ca_object_representations.media.large",
                 "ca_object_representations.media.icon",
